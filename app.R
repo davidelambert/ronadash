@@ -1,6 +1,6 @@
 library(shiny)
 library(tidyverse)
-library(RcppRoll)
+library(zoo)
 
 st <- c("us", str_to_lower(state.abb), "dc")
 names(st) <- c("United States", state.name, "District of Columbia")
